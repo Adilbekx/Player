@@ -1,0 +1,50 @@
+.widgetcard-body {
+    position: relative;
+    width: 25%;
+    height: 74%;
+    border-radius: 30px;
+    background: rgb(64, 2, 2);
+    background: linear-gradient(
+      75deg,
+      rgb(77, 2, 6) 0%,
+      rgba(36, 1, 37, 0) 100%
+    );
+    padding: 1% 3%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .widgetcard-body:hover {
+    transform: scale(1.05);
+  }
+  
+  .widget-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--main-color);
+  }
+  
+  .widget-fade {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 84%;
+    height: 34%;
+    border-radius: 30px;
+    background: linear-gradient(
+      180deg,
+      rgba(40, 2, 33, 0) 10%,
+      rgb(42, 2, 6) 100%
+    );
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    animation: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 8%;
+  }
+  
+  .widgetcard-body:hover .widget-fade {
+    opacity: 1;
+  }

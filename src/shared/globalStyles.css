@@ -1,0 +1,17 @@
+:root{
+    --main-color: #fff;
+    --bg-color: #200122;
+    --second-color: #6f0000;
+}
+
+.screen-container{
+    width: calc(100% - 100px);
+    height: 100%;
+    background: #050127;
+    border-radius: 30px;
+    opacity: 1;
+    background: linear-gradient(to right, #200122, #6f0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.flex{
+    display: flex;
+}
